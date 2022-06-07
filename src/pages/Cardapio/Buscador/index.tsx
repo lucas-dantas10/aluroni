@@ -14,6 +14,7 @@ export function Buscador({busca, setBusca}: Props) {
             value={busca}
             onChange={(evento) => setBusca(evento.target.value)}
             placeholder="Buscar"
+            autoFocus = {true}
             />
             <CgSearch
                 size={20}
